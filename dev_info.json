@@ -1,0 +1,207 @@
+{
+    "USBCANFD-200U":{
+        "dev_type":41,
+        "chn_num":2,
+        "chn_info":{
+            "is_canfd":true,
+            "sf_res":true,
+
+            "baudrate":{
+                "50K":12696558,
+                "100K":4307950,
+                "125K":4304830,
+                "250K":110526,
+                "500K":104286,
+                "800K":101946,
+                "1M":101166
+            },
+
+            "data_baudrate":{
+                "1M":8487694,
+                "2M":4260362,
+                "4M":66058,
+                "5M":66055
+            }
+        }
+    },
+
+    "USBCANFD-100U":{
+        "dev_type":42,
+        "chn_num":1,
+        "chn_info":{
+            "is_canfd":true,
+            "sf_res":true,
+
+            "baudrate":{
+                "50K":12696558,
+                "100K":4307950,
+                "125K":4304830,
+                "250K":110526,
+                "500K":104286,
+                "800K":101946,
+                "1M":101166
+            },
+
+            "data_baudrate":{
+                "1M":8487694,
+                "2M":4260362,
+                "4M":66058,
+                "5M":66055
+            }
+        }
+    },
+   
+    "USBCANFD-MINI":{
+        "dev_type":43,
+        "chn_num":1,
+        "chn_info":{
+            "is_canfd":true,
+            "sf_res":true,
+
+            "baudrate":{
+                "50K":12696558,
+                "100K":4307950,
+                "125K":4304830,
+                "250K":110526,
+                "500K":104286,
+                "800K":101946,
+                "1M":101166
+            },
+
+            "data_baudrate":{
+                "1M":8487694,
+                "2M":4260362,
+                "4M":66058,
+                "5M":66055
+            }
+        }
+    },
+
+    "USBCAN-E-U":{
+        "dev_type":20,
+        "chn_num":1,
+        "chn_info":{
+            "is_canfd":false,
+            "sf_res":false,
+
+            "baudrate":{
+                "50K":"50000",
+                "100K":"100000",
+                "125K":"125000",
+                "250K":"250000",
+                "500K":"500000",
+                "800K":"800000",
+                "1M":"1000000"
+            }
+        }
+    },
+
+    "USBCAN-2E-U":{
+        "dev_type":21,
+        "chn_num":2,
+        "chn_info":{
+            "is_canfd":false,
+            "sf_res":false,
+
+            "baudrate":{
+                "50K":"50000",
+                "100K":"100000",
+                "125K":"125000",
+                "250K":"250000",
+                "500K":"500000",
+                "800K":"800000",
+                "1M":"1000000"
+            }
+        }
+    },
+    
+    "USBCAN-I":{
+        "dev_type":3,
+        "chn_num":1,
+        "chn_info":{
+            "is_canfd":false,
+            "sf_res":false,
+
+            "baudrate":{
+                "50K":{
+                    "timing0":9,
+                    "timing1":28
+                },
+                "100K":{
+                    "timing0":4,
+                    "timing1":28
+                },
+
+                "125K":{
+                    "timing0":3,
+                    "timing1":28
+                },
+
+                "250K":{
+                    "timing0":1,
+                    "timing1":28
+                },
+
+                "500K":{
+                    "timing0":0,
+                    "timing1":28
+                },
+
+                "800K":{
+                    "timing0":0,
+                    "timing1":22
+                },
+
+                "1M":{
+                    "timing0":191,
+                    "timing1":255
+                }
+            }
+        }
+    },
+
+    "USBCAN-II":{ 
+        "dev_type":4,
+        "chn_num":2,
+        "chn_info":{
+            "is_canfd":false,
+            "sf_res":false,
+
+            "baudrate":{
+                "50K":{
+                    "timing0":9,
+                    "timing1":28
+                },
+                "100K":{
+                    "timing0":4,
+                    "timing1":28
+                },
+
+                "125K":{
+                    "timing0":3,
+                    "timing1":28
+                },
+
+                "250K":{
+                    "timing0":1,
+                    "timing1":28
+                },
+
+                "500K":{
+                    "timing0":0,
+                    "timing1":28
+                },
+
+                "800K":{
+                    "timing0":0,
+                    "timing1":22
+                },
+
+                "1M":{
+                    "timing0":191,
+                    "timing1":255
+                }
+            }
+        }
+    }
+}
